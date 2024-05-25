@@ -3,5 +3,11 @@
 import ipdb
 
 def plus_two(num):
-    num + 2
-    return num
+    # Add 2 to the input number
+    result = num + 2
+    
+    # Set a breakpoint for debugging
+    ipdb.set_trace()
+    
+    # Return the result
+    return result
